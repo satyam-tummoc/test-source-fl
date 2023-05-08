@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.it_nomads.fluttersecurestorage",
+    "module": "flutter_secure_storage_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_secure_storage_release-1.0.aar",
+          "url": "flutter_secure_storage_release-1.0.aar",
+          "size": 26617,
+          "sha512": "3e787a6afc64055d87dd4dfbc4ec64620d25e3ddd43760a3a2b6e17086d3d5c5e29ef86712c6b09ac267f1e2ee65dbbb43b6e193f513a04f17e8bc0f206a5f66",
+          "sha256": "89696b15c0b40e95fe7942d164eebd87901cb2dfc9fe6fce1e66418db09e5cf3",
+          "sha1": "abcdc2e91994ab27ebd56cd3ff8f1c1835b41020",
+          "md5": "5ccad22a3912d679b513958822fa4a23"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "androidx.security",
+          "module": "security-crypto",
+          "version": {
+            "requires": "1.1.0-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_secure_storage_release-1.0.aar",
+          "url": "flutter_secure_storage_release-1.0.aar",
+          "size": 26617,
+          "sha512": "3e787a6afc64055d87dd4dfbc4ec64620d25e3ddd43760a3a2b6e17086d3d5c5e29ef86712c6b09ac267f1e2ee65dbbb43b6e193f513a04f17e8bc0f206a5f66",
+          "sha256": "89696b15c0b40e95fe7942d164eebd87901cb2dfc9fe6fce1e66418db09e5cf3",
+          "sha1": "abcdc2e91994ab27ebd56cd3ff8f1c1835b41020",
+          "md5": "5ccad22a3912d679b513958822fa4a23"
+        }
+      ]
+    }
+  ]
+}

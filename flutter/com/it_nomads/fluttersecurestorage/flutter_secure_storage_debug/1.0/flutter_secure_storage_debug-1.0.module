@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.it_nomads.fluttersecurestorage",
+    "module": "flutter_secure_storage_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_secure_storage_debug-1.0.aar",
+          "url": "flutter_secure_storage_debug-1.0.aar",
+          "size": 27853,
+          "sha512": "6549cf571b40a935a924d6b5845a330c9a113769ae5f5614a9c81cc3a70e761af3746aee72d8f08dc3d1c0d8d4e4d24e699e8224e173f7441e4ea942cc33b378",
+          "sha256": "05c95be3c976d3a00a81107e4691f1236db6162a819ca87558f825c3c8ad8948",
+          "sha1": "8bc4b26ed544993b361eeebc8f35bfdad1364bb7",
+          "md5": "16bad46e9ba7bddc2469da82df10416e"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
+          }
+        },
+        {
+          "group": "androidx.security",
+          "module": "security-crypto",
+          "version": {
+            "requires": "1.1.0-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_secure_storage_debug-1.0.aar",
+          "url": "flutter_secure_storage_debug-1.0.aar",
+          "size": 27853,
+          "sha512": "6549cf571b40a935a924d6b5845a330c9a113769ae5f5614a9c81cc3a70e761af3746aee72d8f08dc3d1c0d8d4e4d24e699e8224e173f7441e4ea942cc33b378",
+          "sha256": "05c95be3c976d3a00a81107e4691f1236db6162a819ca87558f825c3c8ad8948",
+          "sha1": "8bc4b26ed544993b361eeebc8f35bfdad1364bb7",
+          "md5": "16bad46e9ba7bddc2469da82df10416e"
+        }
+      ]
+    }
+  ]
+}
